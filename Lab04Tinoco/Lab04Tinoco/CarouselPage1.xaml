@@ -9,7 +9,17 @@
             </OnPlatform>
         </ContentPage.Padding>
         <StackLayout>
-            <Label Text="gree" FontSize="Medium" HorizontalOptions="Center"></Label>
+            <Label Text="Red" FontSize="Medium" HorizontalOptions="Center"></Label>
+            <BoxView Color="Red"
+                     WidthRequest="200"
+                     HeightRequest="200"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="green" FontSize="Medium" HorizontalOptions="Center"></Label>
             <BoxView Color="Green"
                      WidthRequest="200"
                      HeightRequest="200"
