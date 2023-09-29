@@ -15,6 +15,16 @@ namespace Lab04Tinoco
         public Page1()
         {
             InitializeComponent();
+
+            btnClose.Clicked += async (sender, e) =>
+            {
+                await Navigation.PopAsync();
+            };
+        }
+
+        async void OnNextPageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page2());
         }
     }
 }

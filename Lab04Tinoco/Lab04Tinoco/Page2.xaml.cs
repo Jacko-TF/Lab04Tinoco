@@ -16,5 +16,10 @@ namespace Lab04Tinoco
         {
             InitializeComponent();
         }
+
+        async void OnPreviousPageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }
