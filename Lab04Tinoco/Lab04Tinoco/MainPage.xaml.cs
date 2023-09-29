@@ -41,7 +41,7 @@ namespace Lab04Tinoco
                 //Call Popup
                 var answer = await DisplayAlert("Question?",
                     "Would you like to play a game", "Yes", "No");
-                Debug.WriteLine(answer);
+                Debug.WriteLine("Answer: " + answer);
             };
         }
     }
